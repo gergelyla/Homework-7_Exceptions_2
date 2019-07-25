@@ -1,23 +1,25 @@
 package ObjectDefinitions;
 
 
-public class Student implements Comparable<Student>{
+import java.time.LocalDate;
+
+public class Student /*implements Comparable<Student>*/ {
     private String firstName;
     private String lastName;
     private Gender gender;
-    private String dateOfBirth;
+    private LocalDate/*String*/ dateOfBirth;
     private String id;
 
-    public Student(){
+    public Student() {
 
     }
 
-    public Student(String firstName, String lastName, Gender gender, String dateOfBirth, String id){
-        this.firstName=firstName;
-        this.lastName=lastName;
-        this.gender=gender;
-        this.dateOfBirth=dateOfBirth;
-        this.id=id;
+    public Student(String firstName, String lastName, Gender gender, LocalDate/*String*/ dateOfBirth, String id) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.gender = gender;
+        this.dateOfBirth = dateOfBirth;
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -44,11 +46,11 @@ public class Student implements Comparable<Student>{
         this.gender = gender;
     }
 
-    public String getDateOfBirth() {
+    public LocalDate/*String*/ getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(String dateOfBirth) {
+    public void setDateOfBirth(LocalDate/*String*/ dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 
@@ -62,12 +64,12 @@ public class Student implements Comparable<Student>{
 
     @Override
     public String toString() {
-        return "Student: " + firstName +" "+ lastName +", gender: " + gender +", date of birth: "+dateOfBirth+
+        return "Student: " + firstName + " " + lastName + ", gender: " + gender + ", date of birth: " + dateOfBirth +
                 ", id number: " + id;
     }
 
-    @Override
+/*    @Override
     public int compareTo(Student o) {
         return lastName.compareTo(o.getLastName());
-    }
+    }*/
 }

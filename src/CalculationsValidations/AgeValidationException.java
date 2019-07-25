@@ -1,7 +1,7 @@
-package Repositories;
+package CalculationsValidations;
 
 public class AgeValidationException extends Exception {
-    public AgeValidationException(String message){
+    public AgeValidationException(String message) {
         super(message);
     }
 }
