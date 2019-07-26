@@ -23,11 +23,11 @@ public class Main {
         System.out.println("-------------------------------------------------------------------------------------------");
         LOGGER.log(Level.INFO, "Creating students and populating repository if input valid (ordered by last name)");
 
-        Student student1 = new Student("Laszlo", "Gergely", Gender.Male, stringToDate("1980-12-22"), "1801222125794");
-        Student student2 = new Student("Ioana", "Popescu", Gender.Female, stringToDate("1989-05-10"), "2890510125794");
-        Student student3 = new Student("Liviu", "Coman", Gender.Male, stringToDate("1966-10-05"), "1661005355794");
-        Student student4 = new Student("Ana", "Stancu", Gender.Female, stringToDate("2000-07-09"), "2000709345824");
-        Student student5 = new Student("George", "Niculescu", Gender.Male, stringToDate("1975-01-17"), "1750117579437");
+        Student student1 = new Student("Laszlo", "Gergely", Gender.MALE, stringToDate("1980-12-22"), "1801222125794");
+        Student student2 = new Student("Ioana", "Popescu", Gender.FEMALE, stringToDate("1989-05-10"), "2890510125794");
+        Student student3 = new Student("Liviu", "Coman", Gender.MALE, stringToDate("1966-10-05"), "1661005355794");
+        Student student4 = new Student("Ana", "Stancu", Gender.FEMALE, stringToDate("2000-07-09"), "2000709345824");
+        Student student5 = new Student("George", "Niculescu", Gender.MALE, stringToDate("1975-01-17"), "1750117579437");
 
 
         addStudentsToRepository(studentRepositorySorted, student1);

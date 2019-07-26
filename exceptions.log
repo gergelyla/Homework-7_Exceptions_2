@@ -1,0 +1,26 @@
+iul. 26, 2019 5:40:48 P.M. Main main
+INFO: ENTER MAIN
+iul. 26, 2019 5:40:48 P.M. Main createStudentStudentRepositorySorted
+INFO: Creating student repository
+iul. 26, 2019 5:40:48 P.M. Main main
+INFO: Creating students and populating repository if input valid (ordered by last name)
+iul. 26, 2019 5:40:48 P.M. Main addStudentsToRepository
+INFO: Student succesfully added!
+iul. 26, 2019 5:40:48 P.M. Main addStudentsToRepository
+INFO: Student succesfully added!
+iul. 26, 2019 5:40:48 P.M. Main addStudentsToRepository
+INFO: Student succesfully added!
+iul. 26, 2019 5:40:48 P.M. Main addStudentsToRepository
+INFO: Student succesfully added!
+iul. 26, 2019 5:40:48 P.M. Main addStudentsToRepository
+INFO: Student succesfully added!
+iul. 26, 2019 5:40:48 P.M. Main deleteStudentById
+INFO: Deleting student based on ID number
+iul. 26, 2019 5:40:48 P.M. Main listBySpecificAge
+INFO: Retrieve students of certain age
+iul. 26, 2019 5:40:48 P.M. Main listBySpecificAge
+SEVERE: Input not valid! Age must be 18 or more!
+iul. 26, 2019 5:40:48 P.M. Main listByLastName
+INFO: List students ordered by last name
+iul. 26, 2019 5:40:48 P.M. Main listByDateOfBirth
+INFO: List students ordered by date of birth name

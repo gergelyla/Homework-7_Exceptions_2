@@ -133,7 +133,7 @@ public class StudentRepositorySorted<T extends Student> implements IStudentRepos
         if (obj.getLastName().equals(null) || obj.getLastName().length() == 0) {
             throw new ValidationException("Missing last name! Repository remains unchanged!");
         }
-        if (!obj.getGender().equals(Gender.Male) && !obj.getGender().equals(Gender.Female)) {
+        if (!obj.getGender().equals(Gender.MALE) && !obj.getGender().equals(Gender.FEMALE)) {
             throw new ValidationException("Not a valid gender! Repository remains unchanged!");
         }
         if (obj.getDateOfBirth().equals(null)/*||obj.getDateOfBirth().length()==0*/) {
